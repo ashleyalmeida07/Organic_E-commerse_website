@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+ 
+    <title>Carbon Footprint Calculator</title>
+
+
+</head>
+<body>
+    <div class="container">
+        <h1 >Carbon Footprint Calculator</h1>
+
+        <form id="carbonForm">
+            <!-- Electricity Consumption -->
+            <h2>Your Footprint From Electricity Consumption</h2>
+            <label for="grid">Select your Grid or State Electricity Board:</label>
+            <select id="grid">
+                <option value="Delhi">Delhi</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Karnataka">Karnataka</option>
+                <!-- Add more states as needed -->
+            </select>
+
+            <label for="electricityConsumptionKWH">Average Monthly Consumption in KWH:</label>
+            <input type="number" id="electricityConsumptionKWH">
+
+            <label for="electricityConsumptionINR">OR Average Monthly Consumption in INR:</label>
+            <input type="number" id="electricityConsumptionINR">
+
+            <!-- Cooking Fuel -->
+            <h2>Your Footprint From Cooking</h2>
+            <label for="lpgCylinders">Number of LPG cylinders used per Year:</label>
+            <input type="number" id="lpgCylinders">
+
+            <label for="gasUnits">Gas units consumed in a month:</label>
+            <input type="number" id="gasUnits">
+
+            <!-- Air Travel -->
+            <h2>Your Footprint From Air Travel</h2>
+            <label for="flightType">Type of Flight:</label>
+            <select id="flightType">
+                <option value="short">Short Haul (0-785 km)</option>
+                <option value="medium">Medium Haul (785-3700 km)</option>
+                <option value="long">Long Haul (3700 km+)</option>
+            </select>
+
+            <label for="numberOfFlights">Number of Such Flights:</label>
+            <input type="number" id="numberOfFlights">
+
+            <label for="averageDistance">Average distance Per Flight (km):</label>
+            <input type="number" id="averageDistance">
+
+            <label for="travelClass">Class of Travel:</label>
+            <select id="travelClass">
+                <option value="economy">Economy</option>
+                <option value="business">Business</option>
+            </select>
+
+            <!-- Driving Footprint -->
+            <h2>Your Footprint when you Drive Around</h2>
+            <label for="vehicle">Select Your Vehicle:</label>
+            <select id="vehicle">
+                <option value="petrol">Petrol</option>
+                <option value="diesel">Diesel</option>
+                <option value="electric">Electric</option>
+                <!-- Add more vehicle types as needed -->
+            </select>
+
+            <label for="drivingDistance">Average distance in kilometers travelled per month:</label>
+            <input type="number" id="drivingDistance">
+
+            <!-- Public Transport Footprint -->
+            <h2>Your Footprint from Using Public Transport</h2>
+            <label for="publicTransportType">Select Public Transport:</label>
+            <select id="publicTransportType">
+                <option value="bus">Bus</option>
+                <option value="auto">Auto</option>
+                <option value="train">Train</option>
+            </select>
+
+            <label for="publicTransportDistance">Average distance in kilometers travelled per month (for bus/auto) or annually (for train):</label>
+            <input type="number" id="publicTransportDistance">
+
+            <button type="submit">Calculate</button>
+        </form>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>

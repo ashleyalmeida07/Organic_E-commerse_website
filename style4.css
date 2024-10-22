@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap');
+body {
+    font-family:'Baloo Bhai 2', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+    color:#333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background:  #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 15px 25px rgba(46, 139, 87, 0.5), 
+    0 8px 10px rgba(46, 139, 87, 0.3); 
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.container:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 20px 35px rgba(46, 139, 87, 0.6), 
+                0 12px 15px rgba(46, 139, 87, 0.4);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.4em;
+    color: #4a7c59;
+    margin-bottom: 1em;
+}
+h1:hover{
+    color:black;
+    cursor:alias;
+}
+h2 {
+    color: #4a7c59;
+    font-size: 1.6em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #a8d3b0;
+    padding-bottom: 5px;
+   
+   
+
+}
+h2:hover{
+    color:black;
+    cursor:alias;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #4a7c59;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #b5d6b2;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: #333;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    background: linear-gradient(90deg, #6ea474, #4a7c59);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+    font-weight: 500;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+    background: linear-gradient(90deg, #588f67, #436d4f);
+    transform: translateY(-2px);
+}
+
+ul {
+    margin-top: 20px;
+    padding-left: 0;
+    list-style-type: none;
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+}

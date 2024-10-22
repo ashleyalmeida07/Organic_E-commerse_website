@@ -1,0 +1,337 @@
+.desktop-3,
+.desktop-3 * {
+  box-sizing: border-box;
+}
+.desktop-3 {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-2 {
+  background: #050505;
+  width: 100%;
+  height: 95px;
+  position: absolute;
+  left: 0px;
+  top: 30px;
+  overflow: hidden;
+}
+.organic-food {
+  color: #ede4e4;
+  text-align: center;
+  font-family: "Rokkitt-SemiBold", serif;
+  font-size: 32px;
+  line-height: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 95px;
+  top: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-22 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 228px;
+  height: 61px;
+  position: absolute;
+  left: 662px;
+  top: 16px;
+}
+.down-arrow {
+  flex-shrink: 0;
+  width: 26px;
+  height: 35px;
+  position: relative;
+  overflow: hidden;
+}
+.electronics {
+  color: #fff7f7;
+  text-align: center;
+  font-family: "Rokkitt-SemiBold", serif;
+  font-size: 32px;
+  line-height: 20px;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kitchen-decor {
+  color: #fcf8f8;
+  text-align: center;
+  font-family: "Rokkitt-SemiBold", serif;
+  font-size: 32px;
+  line-height: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 359px;
+  top: -3px;
+  width: 262px;
+  height: 103px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 188px;
+  height: 10px;
+  position: absolute;
+  left: 841px;
+  top: 56px;
+}
+.fashion {
+  color: #fff8f8;
+  text-align: center;
+  font-family: "Rokkitt-SemiBold", serif;
+  font-size: 32px;
+  line-height: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 1172px;
+  top: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-4 {
+  width: 647px;
+  height: 426px;
+  position: absolute;
+  left: 270px;
+  top: 112px;
+  overflow: hidden;
+}
+.kids {
+  color: #fffcfc;
+  text-align: center;
+  font-family: "Rokkitt-SemiBold", serif;
+  font-size: 32px;
+  line-height: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 989px;
+  top: 36px;
+  width: 80px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.screenshot-2024-10-12-100529 {
+  width: 354px;
+  height: 495px;
+  position: absolute;
+  left: 1029px;
+  top: 95px;
+  object-fit: cover;
+}
+.rectangle-11 {
+  background: #d9d9d9;
+  width: 456px;
+  height: 889px;
+  position: absolute;
+  left: 533px;
+  top: 93px;
+}
+.rectangle-10 {
+  background: rgba(0, 0, 0, 0.92);
+  width: 487px;
+  height: 871px;
+  position: absolute;
+  left: 0px;
+  top: 153px;
+}
+.rectangle-12 {
+  background: #5c5757;
+  width: 502px;
+  height: 873px;
+  position: absolute;
+  left: 487px;
+  top: 151px;
+}
+.rectangle-13 {
+  width: 1000px;
+  height: 889px;
+  position: absolute;
+  left: 680px;
+  top: 144px;
+  overflow: visible;
+}
+.whole-spices-powdered-spices-mix-spices {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Rokkitt-Light", serif;
+  font-size: 36px;
+  line-height: 20px;
+  font-weight: 300;
+  position: absolute;
+  left: 493px;
+  top: 114px;
+  width: 312px;
+  height: 312px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cerea-channe-ki-dal-huruli-horse-gram-rice-fried-gram-roasted-rajma-matki-math-mot-dal-organ-moong-dal-green-moong-yellow-moong-health-candie-urad-dal-black-urad-white-urad-masoor-dal-red-masoor-split-red-masoor-lal-chilke-wali-black-masoor-herbal {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Rokkitt-Light", serif;
+  font-size: 36px;
+  line-height: 20px;
+  font-weight: 300;
+  position: absolute;
+  left: 917px;
+  top: 144px;
+  width: 497px;
+  height: 801px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.spices {
+  color: #67bc0e;
+  text-align: left;
+  font-family: "Rokkitt-Bold", serif;
+  font-size: 36px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 533px;
+  top: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.food {
+  color: #006a20;
+  text-align: center;
+  font-family: "Rokkitt-SemiBold", serif;
+  font-size: 36px;
+  line-height: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 20px;
+  top: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line-38 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  opacity: 0.8;
+  width: 282px;
+  height: 0px;
+  position: absolute;
+  left: 24px;
+  top: 211px;
+}
+.line-39 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  opacity: 0.8;
+  width: 282px;
+  height: 0px;
+  position: absolute;
+  left: 492px;
+  top: 434px;
+}
+.line-40 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  opacity: 0.8;
+  width: 282px;
+  height: 0px;
+  position: absolute;
+  left: 896px;
+  top: 211px;
+}
+.organic-sugars-jaggery-honey-stevia-cooking-oils-ghee-organic-healthy-breakfast-organic-pickles-healthy-pasta-spaghetti-nuts-edible-seeds-dry-fruits-organic-chocolates-fruit-jams-and-butters-organic-healthy-instant-soups-snacks-papad-organic-vinegar-butters-spreads-vinaigrette-dressings-organic-superfoods-quinoa-chia-seeds {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Rokkitt-Light", serif;
+  font-size: 36px;
+  line-height: 20px;
+  font-weight: 300;
+  position: absolute;
+  left: 24px;
+  top: 232px;
+  width: 444px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.pulses-dal {
+  color: #125d36;
+  text-align: left;
+  font-family: "Rokkitt-Bold", serif;
+  font-size: 36px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 935px;
+  top: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.organic-tea-and-coffee {
+  color: #74d60c;
+  text-align: left;
+  font-family: "Rokkitt-SemiBold", serif;
+  font-size: 36px;
+  line-height: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 497px;
+  top: 394px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.herbal-masala-chai-tea-herbal-c-herbal-tea-organic-green-tea-black-tea {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Rokkitt-Regular", serif;
+  font-size: 36px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 514px;
+  top: 454px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tea-bags-organic-tea-organic-coffee {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Rokkitt-Regular", serif;
+  font-size: 36px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 518px;
+  top: 734px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

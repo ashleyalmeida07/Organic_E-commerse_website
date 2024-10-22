@@ -1,0 +1,141 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap');
+
+/* Basic styling */
+body {
+    font-family: 'Baloo Bhai 2', sans-serif;
+    background: linear-gradient(135deg, #e9f5ea, #cfe8d4);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Centered container with enhanced styling */
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 15px 25px rgba(46, 139, 87, 0.5), /* Dark green shadow */
+                0 8px 10px rgba(46, 139, 87, 0.3); /* Soft dark green shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 35px rgba(46, 139, 87, 0.6), /* Dark green shadow on hover */
+                0 12px 15px rgba(46, 139, 87, 0.4); /* Soft dark green shadow on hover */
+}
+
+
+
+/* Header styles */
+h1 {
+    text-align: center;
+    font-size: 2.4em;
+    color: #4a7c59;
+    margin-bottom: 1em;
+    
+}
+h1:hover{
+   color:black;
+   cursor:alias;
+}
+
+h2 {
+    color: #4a7c59;
+    font-size: 1.6em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #a8d3b0;
+    padding-bottom: 5px;
+   
+   
+
+}
+h2:hover{
+    color:black;
+    cursor:alias;
+}
+
+/* Form label and input styles */
+label {
+    display: block;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #4a7c59;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 1px solid #b5d6b2;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: #333;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Input and select hover and focus styles */
+input:hover, select:hover {
+    border-color: #6ea474;
+}
+
+input:focus, select:focus {
+    border-color: #4a7c59;
+    outline: none;
+    box-shadow: 0 0 6px rgba(74, 124, 89, 0.3);
+}
+
+/* Button styling */
+button {
+    display: inline-block;
+    width: 100%;
+    padding: 14px;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #ffffff;
+    background: linear-gradient(90deg, #6ea474, #4a7c59);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background: linear-gradient(90deg, #588f67, #436d4f);
+    transform: translateY(-2px);
+}
+
+/* Result section styling */
+.result {
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #4a7c59;
+    text-align: center;
+    background-color: #eff7f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+}

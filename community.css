@@ -1,0 +1,287 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Header Section */
+header {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    font-size: 14px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+  .image1 {
+    width: 133px;
+    height: 131px;
+    position: absolute;
+    left: 103px;
+    top: 11px;
+    object-fit: cover;
+  }
+
+  .overlay-content {
+    justify-content: space-evenly;
+  }
+
+  .hotels {
+    color: #000000;
+    text-align: center;
+    font-family: "Outfit-Bold", serif;
+    font-size: 20px;
+    font-weight: 700;
+
+    position: absolute;
+    left: 436px;
+    top: 64px;
+  }
+  .memberships {
+    color: #000000;
+    text-align: center;
+    font-family: "Outfit-Bold", serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    left: 648px;
+    top: 64px;
+  }
+  .dining {
+    color: #000000;
+    text-align: center;
+    font-family: "Outfit-Bold", serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    left: 548px;
+    top: 64px;
+  }
+  .destinations {
+    color: #000000;
+    text-align: center;
+    font-family: "Outfit-Bold", serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    text-decoration: none;;
+    left: 256px;
+    top: 64px;
+  }
+  .login-join {
+    color: #000000;
+    text-align: center;
+    font-family: "Outfit-Bold", serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    left: 980px;
+    top: 64px;
+  }
+  .offers {
+    color: #000000;
+    text-align: center;
+    font-family: "Outfit-Bold", serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    left: 840px;
+    top: 64px;
+  }
+
+  .button {
+    background: #ffffff;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 178px;
+    height: 49px;
+    position: absolute;
+    left: 1137px;
+    top: 51px;
+    overflow: hidden;
+    transition: 0.3ms;
+  }
+  .button:hover
+  {
+    background-color: greenyellow;
+  }
+
+  .book-and-stay {
+    color: #000000;
+    text-align: center;
+    font-family: "Roboto-Bold", serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0px;
+    top: 7px;
+    width: 178px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+/* Hero Section */
+.hero {
+    background-image:url("hero-img.jpg.png");
+    background-size: cover;
+    padding: 100px 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+}
+
+/* Community Section */
+.community {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.community h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.discussion-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.discussion {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.discussion h3 {
+    font-size: 20px;
+}
+
+.discussion p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #2E8B57;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(100, 219, 80);
+}
+
+/* User Tips Section */
+.user-tips {
+    padding: 40px 20px;
+    background-color: #f9fbe7;
+    text-align: center;
+}
+
+.tips-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tip {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.tip h3 {
+    font-size: 20px;
+}
+
+.tip p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #11542e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 10px 0 0;
+    font-size: 14px;
+}
