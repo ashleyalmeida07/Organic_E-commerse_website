@@ -1922,3 +1922,80 @@ button:active {
   bottom: 0%;
   top: 0%;
 }
+@media (max-width: 360px) {
+  .desktop-1 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+
+  .mail {
+    left: 10px;
+    top: 10px;
+    width: 90%;
+  }
+
+  .frame-1 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .organic-food,
+  .kitchen-decor,
+  .electronics,
+  .fashion {
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    margin: 5px 0;
+  }
+
+  .button,
+  .boton-1,
+  .boton-elegante {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .image-1,
+  .image-2,
+  .image-3,
+  .image-4,
+  .image-5 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .group-10,
+  .group-15,
+  .group-20 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .quick-view,
+  .eco-essentials,
+  .plastic-free-alternatives {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  .rectangle-1,
+  .rectangle-2,
+  .rectangle-3 {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  .line-1,
+  .line-2,
+  .line-3 {
+    width: 90%;
+    margin: 5px auto;
+  }
+}
